@@ -119,7 +119,7 @@ section.about {
 
 section.especialidades{
   padding: 60px 0;
-  margin: 1% 0;
+  margin: 0.2% 0;
   background-color: var(--bg-section);
 }
 
@@ -147,7 +147,7 @@ section.especialidades .box-lista {
 
 section.galeria {
   padding: 60px 0;
-  margin: 1% 0;
+  margin: 0.2% 0;
   background-color: var(--bg-section);
 }
 
