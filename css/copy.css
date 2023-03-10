@@ -20,10 +20,8 @@ html, body {
     background-color: lightgray;
 }
 
-.titulo {
-    position: relative;
-    top: 10px;
-    left: 45%;
+h2 {
+    text-align: center;
 }
 
 .header {
@@ -60,6 +58,9 @@ html, body {
 }
 
 .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 40px;
     background-color: lightskyblue;
@@ -68,9 +69,6 @@ html, body {
 .menu a {
     text-align: center;
     text-decoration: none;
-    position: relative;
-    top: 10px;
-    left: 23%;
     margin: 0 25px;
     font-size: 15px;
     color: darkred;
@@ -79,6 +77,8 @@ html, body {
 .box-paragrafo {
     width: 100%;
     padding: 10px;
+    height: 380px;
+    margin: 10px 0;
 }
 
 .box-paragrafo p {
@@ -89,14 +89,25 @@ html, body {
 }
 
 .livros {
-    position: relative;
-    top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.livro-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 23px;
 }
 
 .box-livros {
     max-width: 200px;
+    margin: 0 40px;
 }
 
 .box-livros img {
     width: 100%;
+    height: 250px;
 }
