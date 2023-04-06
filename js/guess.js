@@ -5,7 +5,7 @@ function geraNumeroAleatorio() {
 let numAleatorio = geraNumeroAleatorio();
 
 function aleatorio() {
-    let valor = document.getElementById("aleatorio").value;
+    let valor = parseInt(document.getElementById("aleatorio").value);
 
     if (valor === numAleatorio) {
         document.getElementById("resposta")
